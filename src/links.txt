@@ -1,0 +1,3 @@
+http://forum.arduino.cc/index.php?topic=59854.0
+http://duino4projects.com/arduino-midi-volume-pedal/
+http://www.codeproject.com/Articles/38203/Arduino-Based-MIDI-Expression-Pedal
