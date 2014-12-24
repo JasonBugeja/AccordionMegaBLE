@@ -23,3 +23,7 @@ First working project using Akai LPK25 controller keyboard:
 Final working project using Samson Graphite M32 USB controller keyboard:
 
 ![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/AccordionReady.jpg)
+
+First Youtube video showing first prototype - warning! looks very primitive, made several people laugh :)
+
+![alt tag](https://www.youtube.com/watch?v=Fmhv2PbcJrA)
