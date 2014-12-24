@@ -16,6 +16,10 @@ Bass side bellows side showing counterpart opto-interruptor circuits, Arduino-Me
 
 ![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/ArduinoSide.jpg)
 
-First working model using Akai LPK25 controller keyboard:
+First working project using Akai LPK25 controller keyboard:
 
 ![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/TransformedHohner.jpg)
+
+Final working project using Samson Graphite M32 USB controller keyboard:
+
+![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/AccordionReady.jpg)
