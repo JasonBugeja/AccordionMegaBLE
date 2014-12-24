@@ -26,4 +26,8 @@ Final working project using Samson Graphite M32 USB controller keyboard:
 
 First Youtube video showing first prototype - warning! looks very primitive, made several people laugh :)
 
-![alt tag](https://www.youtube.com/watch?v=Fmhv2PbcJrA)
+https://www.youtube.com/watch?v=Fmhv2PbcJrA
+
+Myself playing using the final working project:
+
+https://www.youtube.com/watch?v=ATPYN1C5aeo
