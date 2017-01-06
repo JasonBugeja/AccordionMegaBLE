@@ -1,7 +1,7 @@
 AccordionMega_USB_Keyb
 ======================
 
-Arduino Mega based Accordion midi controller using photointerruptors for bass (left-hand) section mapping and USB midi keyboard for treble (right-hand) section through USB host shield. 
+Arduino Mega based Accordion midi controller using photointerruptors for bass (left-hand) section mapping using the USB port on the Arduino Mega as class-compliant USB Midi device through MocoLufa and using a commercially available USB Midi to Bluetooth converter to transmit Midi to IOS or OSX devices. Using a commercially available USB midi keyboard for treble (right-hand) section with a powerbank as power supply and a commercially available USB Midi to Bluetooth adaptor or self-powered commercially available BLE mini keyboard.
 
 Thanks to Dmitry Yegorenkov https://github.com/accordion-mega/AccordionMega/wiki/Accordion-Mega-story I have packed up courage to start my mission to convert an acoustic accordion (Hohner Concerto III in my case) into a digital midi controller.  The project took me the whole year 2014 (in my free time) to complete. 
 
