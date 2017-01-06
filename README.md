@@ -1,33 +1,13 @@
 AccordionMega_USB_Keyb
 ======================
 
-Arduino Mega based Accordion midi controller using photointerruptors for bass (left-hand) section mapping using the USB port on the Arduino Mega as class-compliant USB Midi device through MocoLufa and using a commercially available USB Midi to Bluetooth converter to transmit Midi to IOS or OSX devices. Using a commercially available USB midi keyboard for treble (right-hand) section with a powerbank as power supply and a commercially available USB Midi to Bluetooth adaptor or self-powered commercially available BLE mini keyboard.
+Arduino Mega based Accordion midi controller using photo-interruptors for bass (left-hand) section mapping using the USB port on the Arduino Mega as class-compliant USB Midi device through MocoLufa and using a commercially available USB Midi to Bluetooth converter to transmit Midi to IOS or OSX devices. Using a commercially available USB midi keyboard for treble (right-hand) section with a powerbank as power supply and a commercially available USB Midi to Bluetooth adaptor or self-powered commercially available BLE mini keyboard.
 
-Thanks to Dmitry Yegorenkov https://github.com/accordion-mega/AccordionMega/wiki/Accordion-Mega-story I have packed up courage to start my mission to convert an acoustic accordion (Hohner Concerto III in my case) into a digital midi controller.  The project took me the whole year 2014 (in my free time) to complete. 
+This Project is an evolution of my other project https://github.com/JasonBugeja/AccordionMega_USB_Keyb
+The idea is to remove the need for routing USB Midi through the Arduino USB host shield by sending the right-hand side midi information directly through a USB to BLE interface to an IOS/OSX device.Eliminating the routing through USB host shield improves latency.  Keep in mind that Midi travels at 31250 bps, that means that if you route it there is an inevitable noticeable lag. 
 
-I have updated Dmitry's code to the new Arduino IDE and decided to combine with Yuuichi Akagawa's https://github.com/YuuichiAkagawa/USBH_MIDI/blob/master/examples/USB_MIDI_converter/USB_MIDI_converter.ino
-so that apart from being cost effective, it will have touch sensitivity on the right-hand keyboard and less time-consuming to build. Using an off-the-shelf midi keyboard, first Akai LPK25 and then Samson Graphite M32 to have more keys available, costs approx £50 more but saves you 34 or 41 opto-interrupters and their mapping!  The bass section is relatively easier to map since all bass combinations use only 24 pallets. 
+Having the left and right hand side of the accordion independent creates redundancy in case of failure and eliminates the need for cables across the bellows. The commercially available keyboard on the right-hand side will still benefit through the use of the bellows pressure sensor and if velocity curve cannot be set to "flat" on the device itself, it can still be filtered out through a Midi routing/filtering app such as Midi-Flow on IOS. 
 
-Bass side pallets with opto-interruptors:
-
-![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/OptoInterruptorsPallets.jpg)
-
-Bass side bellows side showing counterpart opto-interruptor circuits, Arduino-Mega and USB host shield.
-
-![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/ArduinoSide.jpg)
-
-First working project using Akai LPK25 controller keyboard:
-
-![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/TransformedHohner.jpg)
-
-Final working project using Samson Graphite M32 USB controller keyboard:
-
-![alt tag](https://github.com/JasonBugeja/AccordionMega_USB_Keyb/blob/master/photos/AccordionReady.jpg)
-
-First Youtube video showing first prototype - warning! looks very primitive, made several people laugh :)
-
-https://www.youtube.com/watch?v=Fmhv2PbcJrA
-
-Myself playing using the final working project:
-
-https://www.youtube.com/watch?v=ATPYN1C5aeo
+BLE
+----
+Using any IOS device (iPhone, iPod Touch 6thGen or iPad) multiple BLE transmitters can be used at the same time.  I am currently using two Yamaha UD-BT01 adaptors simultaneously and they work like a charm with no perceivable delay. 
