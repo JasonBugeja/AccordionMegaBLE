@@ -14,4 +14,12 @@ Using any IOS device (iPhone, iPod Touch 6thGen or iPad) multiple BLE transmitte
 
 INSTRUCTIONS
 ------------
-1. When you download this repository as zip file, extract it all and remove "-master" from the folder name for it before compiling and uploading to your Arduino/Genuino Mega. 
+"Where am I going to start?"
+----------------------------
+This breadboard helps you understand better what is going on before starting to build the actual components inside the accordion.
+![alt tag](https://github.com/JasonBugeja/AccordionMegaBLE/blob/master/photos/Breadboard.jpg)
+![alt tag](https://github.com/JasonBugeja/AccordionMegaBLE/blob/master/photos/Breadboard_Arduino.jpg)
+
+The 'Documents' folder in the zip file contains breadboard prototype schematic and whole accordion schematic done by Dmitry Yegorenkov.
+
+In the 'Photos' folder you can find some high resolution photos of the electronics inside my accordion. 
