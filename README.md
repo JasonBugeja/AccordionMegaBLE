@@ -25,3 +25,9 @@ Youtube video of the breadboard https://www.youtube.com/watch?v=EBQ5M6_7AL0
 The 'Documents' folder in the zip file contains breadboard prototype schematic and whole accordion schematic done by Dmitry Yegorenkov.
 
 In the 'Photos' folder you can find some high resolution photos of the electronics inside my accordion. 
+
+COMPONENTS:
+-----------
+For breadboard prototype I have used an Arduino clone in case it gets fried :)
+Inside my accordion I prefer to use a genuine Arduino/Genuino to make sure there are no cost-cutting modifications that would compromise performance.
+
