@@ -11,3 +11,7 @@ Having the left and right hand side of the accordion independent creates redunda
 BLE
 ----
 Using any IOS device (iPhone, iPod Touch 6thGen or iPad) multiple BLE transmitters can be used at the same time.  I am currently using two Yamaha UD-BT01 adaptors simultaneously and they work like a charm without any perceivable delay. 
+
+INSTRUCTIONS
+------------
+1. When you download this repository as zip file, extract it all and remove "-master" from the name for it before compiling. 
