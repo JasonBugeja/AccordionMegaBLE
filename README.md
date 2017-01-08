@@ -1,4 +1,4 @@
-AccordionMega_USB_Keyb
+AccordionMegaBLE
 ======================
 
 Arduino Mega based Accordion midi controller using photo-interruptors for bass (left-hand) section mapping using the USB port on the Arduino Mega as class-compliant USB Midi device through mocoLUFA https://github.com/kuwatay/mocolufa and using a commercially available USB Midi to Bluetooth converter to transmit Midi to IOS or OSX devices. Using a commercially available USB midi keyboard for treble (right-hand) section with a powerbank as power supply and a commercially available USB Midi to Bluetooth adaptor or self-powered commercially available BLE mini keyboard.
