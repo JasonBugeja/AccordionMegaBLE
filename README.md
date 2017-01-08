@@ -28,6 +28,13 @@ In the 'Photos' folder you can find some high resolution photos of the electroni
 
 COMPONENTS:
 -----------
-For breadboard prototype I have used an Arduino clone in case it gets fried :)
+*Arduino Mega - For breadboard prototype I have used an Arduino clone in case it gets fried :)
 Inside my accordion I prefer to use a genuine Arduino/Genuino to make sure there are no cost-cutting modifications that would compromise performance.
+
+*resistors - as per schematic. For breadboard use whatever you like as long as resistance matches, for the real thing use low-tolerance high quality resistors. 
+
+*Transistors - I have used C945, you might use an equivalent. Note that transistors have three legs **Emitter**, **Collector**, **Base** - download the data sheet to decipher which is which and where to connect as per schematic. They are not always in the same order eg. the Collector can be the middle leg in one model and left or right on another model - always refer to data sheet and make sure that you are facing the flat side.
+
+*Photo interruptors - I have used HY-301-21 from eBay. Similar models should work as long as specifications are equivalent. Also refer to data sheets because their four legs might be in a different layout. The infrared emitter side is usually marked with a diode sign (Light emitting diode), so you would know where the voltage enters after passing through resistors. When it exits the infra-red diode, it joins all the other exits in the group and goes to the **Collector** of the transistor. The sensor transistor side of the Photo-interruptor is connected to the analog pins of the arduino from the **Collector** side and the **Emitter** to **Ground**.
+
 
