@@ -28,7 +28,7 @@ In the 'Photos' folder you can find some high resolution photos of the electroni
 
 COMPONENTS:
 -----------
-* Arduino Mega - For breadboard prototype I have used an Arduino clone in case it gets fried :simple_smile: Inside my accordion I prefer to use a genuine Arduino/Genuino to make sure there are no cost-cutting modifications that would compromise performance.
+* Arduino Mega - For breadboard prototype I have used an Arduino clone in case it gets fried :) Inside my accordion I prefer to use a genuine Arduino/Genuino to make sure there are no cost-cutting modifications that would compromise performance.
 
 * resistors - as per schematic. For breadboard use whatever you like as long as resistance matches, for the real thing use low-tolerance high quality resistors. 
 
