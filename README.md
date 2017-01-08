@@ -14,4 +14,4 @@ Using any IOS device (iPhone, iPod Touch 6thGen or iPad) multiple BLE transmitte
 
 INSTRUCTIONS
 ------------
-1. When you download this repository as zip file, extract it all and remove "-master" from the folder name for it before compiling. 
+1. When you download this repository as zip file, extract it all and remove "-master" from the folder name for it before compiling and uploading to your Arduino/Genuino Mega. 
