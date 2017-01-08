@@ -20,6 +20,8 @@ This breadboard helps you understand better what is going on before starting to 
 ![alt tag](https://github.com/JasonBugeja/AccordionMegaBLE/blob/master/photos/Breadboard.jpg)
 ![alt tag](https://github.com/JasonBugeja/AccordionMegaBLE/blob/master/photos/Breadboard_Arduino.jpg)
 
+Youtube video of the breadboard https://www.youtube.com/watch?v=EBQ5M6_7AL0
+
 The 'Documents' folder in the zip file contains breadboard prototype schematic and whole accordion schematic done by Dmitry Yegorenkov.
 
 In the 'Photos' folder you can find some high resolution photos of the electronics inside my accordion. 
